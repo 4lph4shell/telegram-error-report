@@ -9,6 +9,10 @@ With this implementation, the developer can receive exceptions, error 500, brute
 ## Installing
 
 Type `composer require andrebian/telegram-error-report` or download the [zip](https://github.com/4lph4shell/telegram-error-report/archive/refs/heads/main.zip).
+or 
+```
+git clone https://github.com/4lph4shell/telegram-error-report.git
+```
 
 ## Tests
 
