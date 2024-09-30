@@ -1,0 +1,9 @@
+vendor/
+composer.lock
+config/*.php
+!config/*.php.dist
+build/*
+!build/.gitkeep
+.phpunit.result.cache
+.idea
+.phpunit.cache

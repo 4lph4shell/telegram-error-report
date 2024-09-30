@@ -1,0 +1,7 @@
+<?php
+
+return [
+    'endpoint' => 'https://api.telegram.org/bot',
+    'bot' => '',
+    'channel_id' => ''
+];

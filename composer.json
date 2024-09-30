@@ -1,0 +1,35 @@
+{
+  "name": "andrebian/telegram-error-report",
+  "description": "A simple tool to send error report over Telegram",
+  "keywords": [
+    "telegram",
+    "error reporting"
+  ],
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Andre Cardoso",
+      "email": "andrecardosodev@gmail.com",
+      "role": "maintainer"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunir/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Andrebian\\TelegramErrorReport\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Test\\Andrebian\\TelegramErrorReport\\": "test/"
+    }
+  }
+}
